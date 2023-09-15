@@ -1,35 +1,28 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+
+import { useState } from "react";
+import "./App.css";
+import Courses from "./Components/Courses/Courses";
+import Coursecart from "./Components/Coursescart/Coursecart";
+
 
 function App() {
-  const [count, setCount] = useState(0)
-
+const [creditHours, setcreditHours]=useState(0);
+const [totalPrice, setTotalPrice] = useState(0);
+const [courseName, setCourseName] = useState([]);
+const creditHourHandle = course => {
+  setcreditHours(creditHours + course.credit_hours);
+  setTotalPrice(totalPrice + course.price);
+  setCourseName([...courseName, course.course_name]);
+}
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+      <h1 className="mb-10">Course Registration</h1>
+      <div className="flex">
+        <Courses creditHourHandle={creditHourHandle}></Courses>
+        <Coursecart creditHours={creditHours} totalPrice={totalPrice} courseName={courseName}></Coursecart>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

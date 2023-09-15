@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "course_name": "Introduction to C Programming",
+    "about_course": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "price": 15000,
+    "credit_hours": 1,
+    "image": "https://example.com/course1.jpg"
+  },
+  {
+    "id": 2,
+    "course_name": "Introduction to Algorithms",
+    "about_course": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "price": 25000,
+    "credit_hours": 2,
+    "image": "https://example.com/course2.jpg"
+  },
+  {
+    "id": 3,
+    "course_name": "Introduction to C++ for DSA",
+    "about_course": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "price": 10000,
+    "credit_hours": 10,
+    "image": "https://example.com/course3.jpg"
+  },
+  {
+    "id": 4,
+    "course_name": "Basic Data Structures",
+    "about_course": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "price": 35000,
+    "credit_hours": 5,
+    "image": "https://example.com/course4.jpg"
+  },
+  {
+    "id": 5,
+    "course_name": "Introduction to OOP Python",
+    "about_course": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "price": 19000,
+    "credit_hours": 5,
+    "image": "https://example.com/course5.jpg"
+  },
+  {
+    "id": 6,
+    "course_name": "Software Engineering",
+    "about_course": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "price": 23000,
+    "credit_hours": 2,
+    "image": "https://example.com/course6.jpg"
+  },
+  {
+    "id": 7,
+    "course_name": "AWS, Cloud Computing",
+    "about_course": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "price": 35000,
+    "credit_hours": 5,
+    "image": "https://example.com/course7.jpg"
+  },
+  {
+    "id": 8,
+    "course_name": "Database (MySQL)",
+    "about_course": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "price": 19000,
+    "credit_hours": 5,
+    "image": "https://example.com/course8.jpg"
+  },
+  {
+    "id": 9,
+    "course_name": "Problem-Solving Part",
+    "about_course": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "price": 23000,
+    "credit_hours": 2,
+    "image": "https://example.com/course9.jpg"
+  }
+]
