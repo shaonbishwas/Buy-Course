@@ -12,6 +12,10 @@ function App() {
     if (creditHours + course.credit_hours > 20) {
       return;
     }
+    const isPresent = courseName.find(cName => cName == course.course_name);
+    if(isPresent){
+      return;
+    }
     setcreditHours(creditHours + course.credit_hours);
     setTotalPrice(totalPrice + course.price);
     setCourseName([...courseName, course.course_name]);
