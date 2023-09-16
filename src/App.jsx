@@ -46,8 +46,8 @@ function App() {
         pauseOnHover
         theme="light"
       />
-      <h1 className="mb-10">Course Registration</h1>
-      <div className="flex">
+      <h1 className="mb-10 font-bold">Course Registration</h1>
+      <div className="flex gap-10">
         <Courses cartAreaHandle={cartAreaHandle}></Courses>
         <Coursecart
           creditHours={creditHours}

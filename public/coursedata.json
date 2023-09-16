@@ -5,7 +5,7 @@
     "about_course": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
     "price": 15000,
     "credit_hours": 1,
-    "image": "https://example.com/course1.jpg"
+    "image": "https://i.ibb.co/xg0bXYt/Rectangle-2-2.png"
   },
   {
     "id": 2,
@@ -13,7 +13,7 @@
     "about_course": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
     "price": 25000,
     "credit_hours": 2,
-    "image": "https://example.com/course2.jpg"
+    "image": "https://i.ibb.co/mb8YHjp/Rectangle-2-3.png"
   },
   {
     "id": 3,
@@ -21,7 +21,7 @@
     "about_course": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
     "price": 10000,
     "credit_hours": 10,
-    "image": "https://example.com/course3.jpg"
+    "image": "https://i.ibb.co/bQjvY9r/Rectangle-2-4.png"
   },
   {
     "id": 4,
@@ -29,7 +29,7 @@
     "about_course": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
     "price": 35000,
     "credit_hours": 5,
-    "image": "https://example.com/course4.jpg"
+    "image": "https://i.ibb.co/p0m0cQy/Rectangle-3.png"
   },
   {
     "id": 5,
@@ -37,7 +37,7 @@
     "about_course": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
     "price": 19000,
     "credit_hours": 5,
-    "image": "https://example.com/course5.jpg"
+    "image": "https://i.ibb.co/0hP8Rgn/Rectangle-2.png"
   },
   {
     "id": 6,
@@ -45,7 +45,7 @@
     "about_course": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
     "price": 23000,
     "credit_hours": 2,
-    "image": "https://example.com/course6.jpg"
+    "image": "https://i.ibb.co/QcGtdMP/Rectangle-2-5.png"
   },
   {
     "id": 7,
@@ -53,7 +53,7 @@
     "about_course": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
     "price": 35000,
     "credit_hours": 5,
-    "image": "https://example.com/course7.jpg"
+    "image": "https://i.ibb.co/Bs6QHW2/Rectangle-3-1.png"
   },
   {
     "id": 8,
@@ -61,7 +61,7 @@
     "about_course": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
     "price": 19000,
     "credit_hours": 5,
-    "image": "https://example.com/course8.jpg"
+    "image": "https://i.ibb.co/qRDJV21/Rectangle-2-1.png"
   },
   {
     "id": 9,
@@ -69,6 +69,6 @@
     "about_course": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
     "price": 23000,
     "credit_hours": 2,
-    "image": "https://example.com/course9.jpg"
+    "image": "https://i.ibb.co/sypJx1P/Rectangle-2-6.png"
   }
 ]
