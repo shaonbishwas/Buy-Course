@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 
-const Course = ({ course, creditHourHandle }) => {
+const Course = ({ course, cartAreaHandle }) => {
   const { course_name, about_course, price, credit_hours } = course;
   return (
     <div>
@@ -18,12 +18,12 @@ const Course = ({ course, creditHourHandle }) => {
           <span>{credit_hours}</span>hr
         </p>
       </div>
-      <button onClick={()=>creditHourHandle(course)}>Select</button>
+      <button onClick={()=>cartAreaHandle(course)}>Select</button>
     </div>
   );
 };
 Course.propTypes = {
   course: PropTypes.object,
-  creditHourHandle: PropTypes.func
+  cartAreaHandle: PropTypes.func
 };
 export default Course;
